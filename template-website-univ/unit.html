@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <!-- Bootstrap 5.3 -->
+        <link rel="stylesheet" href="plugins/css/bootstrap.min.css">
+        <!-- Bootstrap Icons CSS -->
+        <link rel="stylesheet" href="plugins/css/bootstrap-icons.css">
+        <!-- Bootstrap Data Table CSS -->
+        <link rel='stylesheet' href='plugins/css/dataTables.bootstrap5.min.css'>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="plugins/css/style.css">
+        <!-- Data AOS -->
+        <link href="plugins/css/aos.css" rel="stylesheet">
+        
+        <!-- Title -->
+        <title>Unit, Bagian, dan Lembaga | Universitas Muhammadiyah Kalimantan Timur</title>
+    </head>
+    <body>
+        <div class="top-navbar navbar navbar-expand-lg navbar-dark py-1"> 
+            <div class="container">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navTop" aria-controls="navTop" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navTop">
+                    <ul class="navbar-nav fw-lighter">
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://sikad.umkt.ac.id/">SIKAD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://pddikti.kemdikbud.go.id/">PDDIKTI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://lib.umkt.ac.id/">Perpus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="#">Tracer Study</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="#">E-Brosur</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav fw-lighter">
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" href="mailto:web@umkt.ac.id"><i class="bi bi-envelope">&nbsp;</i>web@umkt.ac.id</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" href="#"><i class="bi bi-whatsapp">&nbsp;</i>Chat Admisi UMKT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="home.html"><img id="logo" src="images/logo-umkt-hitam.png" alt="logo umkt" width="120px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kampus UMKT
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="sambutan.html">Sambutan Rektor</a></li>
+                                <li><a class="dropdown-item" href="visi-misi.html">Visi dan Misi</a></li>
+                                <li><a class="dropdown-item" href="master-plan.html">Master Plan</a></li>
+                                <li><a class="dropdown-item" href="profil.html">Profil</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Akademik
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://lib.umkt.ac.id/" target="_blank" rel="noopener noreferrer">Perpustakaan</a></li>
+                                <li><a class="dropdown-item" href="https://opl.umkt.ac.id/" target="_blank" rel="noopener noreferrer">OpenLearning</a></li>
+                                <li><a class="dropdown-item" href="dosen.html">Dosen</a></li>
+                                <li><a class="dropdown-item" href="fakultas.html">Fakultas</a></li>
+                                <li><a class="dropdown-item" href="prodi.html">Program Studi</a></li>
+                                <li><a class="dropdown-item active" href="unit.html">Unit, Bagian, dan Lembaga</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy.html">UMKTalks Academy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="why-umkt.html">Why UMKT?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontak.html">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- Main Content -->
+        <!-- Section -->
+        <div id="section" class="container-fluid" style="background-color: white;">
+            <div class="container p-2">
+                <h1 class="fw-bold text-center pb-2" data-aos="fade" data-aos-duration="1000" data-aos-once="true">Unit, Bagian, dan Lembaga UMKT</h1>
+                <!-- Sub Section -->
+                <div class="container mb-5">
+                    <div class="row pt-5 gap-1 align-items-start border-top border-warning">
+                        <div class="col-lg border-start border-5 border-warning m-0">
+                            <h4 class="fw-bold">Unit</h4>
+                        </div>
+                    </div>
+                    <div class="row gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Unit IT</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ratione amet, porro repellendus cupiditate adipisci.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Lembaga AIK dan MKDU</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus tempore minus excepturi aliquam dolorem!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Lembaga Penelitian dan Pengabdian Masyarakat</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ratione amet, porro repellendus cupiditate adipisci.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Lembaga Jaminan Mutu</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus tempore minus excepturi aliquam dolorem!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sub Section -->
+                <div class="container mb-5">
+                    <div class="row pt-5 gap-1 align-items-start border-top">
+                        <div class="col-lg border-start border-5 border-warning m-0 ">
+                            <h4 class="fw-bold">Bagian</h4>
+                        </div>
+                    </div>
+                    <div class="row gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Bagian HRD</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolores perferendis, ex commodi fugiat aliquid?.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Bagian Administrasi Akademik</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos veniam, possimus facilis illo voluptatum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Bagian Keuangan</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum illo hic aut beatae reiciendis. Illo!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Bagian Umum</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem asperiores nulla amet corrupti fugit alias.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Bagian Kerjasama</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, voluptate necessitatibus? Placeat debitis illum quidem?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Bagian Kemahasiswaan</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quo beatae earum voluptates quas. Aut?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sub Section -->
+                <div class="container mb-5">
+                    <div class="row pt-5 gap-1 align-items-start border-top">
+                        <div class="col-lg border-start border-5 border-warning m-0 ">
+                            <h4 class="fw-bold">UPT</h4>
+                        </div>
+                    </div>
+                    <div class="row pt-5 gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">UPT Laboratorium</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolores error officia, incidunt praesentium tenetur?.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">UPT Perpustakaan</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugiat illum temporibus molestias. Vero, quasi?.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sub Section -->
+                <div class="container mb-5">
+                    <div class="row pt-5 gap-1 align-items-start border-top">
+                        <div class="col-lg border-start border-5 border-warning m-0 ">
+                            <h4 class="fw-bold">Sekolah</h4>
+                        </div>
+                    </div>
+                    <div class="row pt-5 gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Sekolah Internasional</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam minima cumque labore autem maiores maxime?.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Sekolah Vokasi</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque adipisci reiciendis sit, ipsum unde!.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sub Section -->
+                <div class="container mb-5">
+                    <div class="row pt-5 gap-1 align-items-start border-top">
+                        <div class="col-lg border-start border-5 border-warning m-0 ">
+                            <h4 class="fw-bold">Pusat Penerbitan Ilmiah</h4>
+                        </div>
+                    </div>
+                    <div class="row pt-5 gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Pusat Penerbitan Ilmiah</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo sed veniam voluptatem odit sunt recusandae?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sub Section -->
+                <div class="container mb-5">
+                    <div class="row pt-5 gap-1 align-items-start border-top">
+                        <div class="col-lg border-start border-5 border-warning m-0 ">
+                            <h4 class="fw-bold">Sekretariat Rektorat</h4>
+                        </div>
+                    </div>
+                    <div class="row pt-5 gap-1 align-items-start">
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Sekretariat Rektorat</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem animi unde eius dolore quisquam facilis?.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="row">
+                                <div class="col-lg pt-3" data-aos="fade" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <img class="img-fluid" src="images/logo-umkt-hitam.png" alt="">
+                                </div>
+                                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" data-aos-once="true">
+                                    <h5 id="title" class="fw-bold pt-3">Humas UMKT</h5>
+                                    <div class="col border border-warning mb-3" style="width: 50px;"></div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique natus sit deleniti optio, praesentium esse?.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+    </body>
+    <script src="plugins/js/aos.js"></script>
+    <script src="plugins/js/jquery-3.7.0.min.js"></script>
+    <script src="plugins/js/popper.min.js"></script>
+    <script src="plugins/js/bootstrap.min.js"></script>
+    <script src="plugins/js/custom.js"></script>
+    
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted" style="background-color: rgb(39, 47, 84);">
+        <!-- Section: Links  -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 text-white border-bottom">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Universitas Muhammadiyah Kalimantan Timur
+                        </h6>
+                        <p class="fw-bold mb-0">Location</p>
+                        <p>Jl. Ir. H. Juanda No.15, Sidodadi, Kec. Samarinda Ulu, Kota Samarinda, Kalimantan Timur 75124</p>
+                        <p class="fw-bold mb-0">Office Hours:</p>
+                        <p>08:00 am - 04:00 pm</p>
+                        <p class="fw-bold mb-0">Telephone</p>
+                        <p>0541-748511</p>
+                        <p class="fw-bold mb-0">Email</p>
+                        <p>admin@umkt.ac.id</p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Quick Access
+                        </h6>
+                        <p>
+                        <a href="https://lib.umkt.ac.id/" target="_blank" rel="noopener noreferrer" class="text-reset">Perpustakaan</a>
+                        </p>
+                        <p>
+                        <a href="prodi.html" class="text-reset">Program Studi</a>
+                        </p>
+                        <p>
+                        <a href="fakultas.html" class="text-reset">Fakultas</a>
+                        </p>
+                        <p>
+                        <a href="https://opl.umkt.ac.id" target="_blank" rel="noopener noreferrer" class="text-reset">E-Learning</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        About UMKT
+                        </h6>
+                        <p>
+                        <a href="profil.html" class="text-reset">Profil</a>
+                        </p>
+                        <p>
+                        <a href="why-umkt.html" class="text-reset">Why UMKT?</a>
+                        </p>
+                        <p>
+                        <a href="fakultas.html" class="text-reset">Fakultas</a>
+                        </p>
+                        <p>
+                        <a href="visi-misi.html" class="text-reset">Visi dan Misi</a>
+                        </p>
+                        <p>
+                        <a href="kontak.html" class="text-reset">Kontak</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-1 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Sosial Media</h6>
+                        <div class="my-3">
+                            <a href="https://www.instagram.com/umkaltim/?hl=en" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-instagram me-3"></i>Instagram</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.facebook.com/UMKALTIM" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-facebook me-3"></i>Facebook</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.youtube.com/channel/UC9VOR5Ry-JjlpcRNiu2tMMQ" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-youtube me-3"></i>YouTube</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.tiktok.com/@umkt_cmiiw" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-tiktok me-3"></i>TikTok</a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-4 text-white" style="background-color: rgb(39, 47, 84);">
+            <p class="text-reset"><strong>Universitas Muhammadiyah Kalimantan Timur</strong> ©  Copyright 2023</p>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</html>

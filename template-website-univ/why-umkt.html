@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <!-- Bootstrap 5.3 -->
+        <link rel="stylesheet" href="plugins/css/bootstrap.min.css">
+        <!-- Bootstrap Icons CSS -->
+        <link rel="stylesheet" href="plugins/css/bootstrap-icons.css">
+        <!-- Bootstrap Data Table CSS -->
+        <link rel='stylesheet' href='plugins/css/dataTables.bootstrap5.min.css'>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="plugins/css/style.css">
+        <!-- Data AOS -->
+        <link href="plugins/css/aos.css" rel="stylesheet">
+        
+        <!-- Accordion CSS -->
+        <link rel="stylesheet" href="plugins/css/accordion.css">
+        <style>
+            input[name='panel']:checked + .collapsible {
+                overflow: auto;
+                height: 220px; /* needs a numeric value here to keep transition */
+            }
+        </style>
+        <!-- Title -->
+        <title>Why UMKT? | Universitas Muhammadiyah Kalimantan Timur</title>
+    </head>
+    <body>
+        <div class="top-navbar navbar navbar-expand-lg navbar-dark py-1"> 
+            <div class="container">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navTop" aria-controls="navTop" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navTop">
+                    <ul class="navbar-nav fw-lighter">
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://sikad.umkt.ac.id/">SIKAD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://pddikti.kemdikbud.go.id/">PDDIKTI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://lib.umkt.ac.id/">Perpus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="#">Tracer Study</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="#">E-Brosur</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav fw-lighter">
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" href="mailto:web@umkt.ac.id"><i class="bi bi-envelope">&nbsp;</i>web@umkt.ac.id</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" href="#"><i class="bi bi-whatsapp">&nbsp;</i>Chat Admisi UMKT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="home.html"><img id="logo" src="images/logo-umkt-hitam.png" alt="logo umkt" width="120px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kampus UMKT
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="sambutan.html">Sambutan Rektor</a></li>
+                                <li><a class="dropdown-item" href="visi-misi.html">Visi dan Misi</a></li>
+                                <li><a class="dropdown-item" href="master-plan.html">Master Plan</a></li>
+                                <li><a class="dropdown-item" href="profil.html">Profil</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Akademik
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://lib.umkt.ac.id/" target="_blank" rel="noopener noreferrer">Perpustakaan</a></li>
+                                <li><a class="dropdown-item" href="https://opl.umkt.ac.id/" target="_blank" rel="noopener noreferrer">OpenLearning</a></li>
+                                <li><a class="dropdown-item" href="dosen.html">Dosen</a></li>
+                                <li><a class="dropdown-item" href="fakultas.html">Fakultas</a></li>
+                                <li><a class="dropdown-item" href="prodi.html">Program Studi</a></li>
+                                <li><a class="dropdown-item" href="unit.html">Unit, Bagian, dan Lembaga</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy.html">UMKTalks Academy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="why-umkt.html">Why UMKT?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontak.html">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- Main Content -->
+        <!-- Section -->
+        <div id="section" class="container-fluid" style="background-color: white;">
+            <div class="container p-2">
+                <h1 class="fw-bold text-center pb-2" data-aos="fade" data-aos-duration="1000" data-aos-once="true">Why UMKT?</h1>
+                <div class="row pt-5 gap-1 align-items-start border-top border-warning">
+                    <div class="col-lg col-md" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                        <p>Siapa yang tidak kenal dengan Kota Samarinda, kota yang kaya dengan sumber daya alam dengan kehidupan yang dinamis dan selalu saja muncul hal-hal baru yang kita temui hampir setiap hari. Samarinda juga sebuah Ibu Kota provinsi Kalimantan Timur dengan jumlah penduduk yang telah mencapai satu juta jiwa. Sekolah yang unggul banyak terdapat di Samarinda, demikian juga dengan beberapa Universitas yang tersebar di Samarinda termasuk di antaranya Universitas Muhammadiyah Kalimantan Timur.</p>
+                        <p>Universitas Muhammadiyah Kalimantan Timur (UMKT) merupakan salah satu dari 172 kampus Perguruan Tinggi yang dimiliki oleh Persyarikatan Muhammadiyah. Kampus ini terletak di Samarinda, ibu kota provinsi Kalimantan Timur. Kenapa harus memilih kuliah di UMKT? Mari kita tengok sekilas informasi tentang UMKT.</p>
+                    </div>
+                    <div class="col-lg text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                            <img
+                                src="images/gedung-1.jpg"
+                                class="w-100 shadow-1-strong rounded mb-4"
+                            />
+                        
+                            <img
+                                src="images/gedung-3-vertical.jpg"
+                                class="w-100 shadow-1-strong rounded mb-4"
+                                alt="Wintry Mountain Landscape"
+                            />
+                            </div>
+                        
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img
+                                src="images/gedung-1-vertical.jpg"
+                                class="w-100 shadow-1-strong rounded mb-4"
+                                alt="Mountains in the Clouds"
+                            />
+                        
+                            <img
+                                src="images/gedung-4.jpg"
+                                class="w-100 shadow-1-strong rounded mb-4"
+                                alt="Boat on Calm Water"
+                            />
+                            </div>
+                        
+                            <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img
+                                src="images/gedung-3.jpg"
+                                class="w-100 shadow-1-strong rounded mb-4"
+                                alt="Waves at Sea"
+                            />
+                        
+                            <img
+                                src="images/gedung-2-vertical.jpg"
+                                class="w-100 shadow-1-strong rounded mb-4"
+                                alt="Yosemite National Park"
+                            />
+                            </div>
+                        </div>
+                        <!-- Gallery -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section -->
+        <div id="section" class="container-fluid">
+            <div class="row gap-1 align-items-center">
+                <div class="col-lg py-lg-5 px-4">
+                    <h4 id="title" class="fw-bolder py-4" data-aos="fade-left" data-aos-duration="1500" data-aos-once="true" data-aos-delay="200">Why You Should Choose UMKT</h4>
+                    <div class="col border border-warning mb-3" style="width: 50px;" data-aos="fade-left" data-aos-duration="1500" data-aos-once="true" data-aos-delay="200"></div>
+                    <div class="pb-5" data-aos="fade-left" data-aos-duration="1500" data-aos-once="true" data-aos-delay="700">
+                        <label for="panel_1">UMKT Dalam Rangka</label>
+                        <input type="radio" name="panel" id="panel_1" checked>
+                        <div class="collapsible">
+                            <li>Cikal bakal UMKT adalah STIKES Muhammadiyah Samarinda dan STIE Muhammadiyah Samarinda</li>
+                            <li>STIE Muhammadiyah Samarinda berdiri pada 15 September 1981</li>
+                            <li>STIKES Muhammadiyah Samarinda berdiri pada tahun 2009 dengan Akreditasi Institusi B (Sangat Baik)</li>
+                            <li>UMKT memiliki 4 Fakultas dan 16 Program Studi</li>
+                            <li>Jumlah mahasiswa aktif UMKT lebih dari 2.000 orang</li>
+                            <li>Jumlah dosen UMKT lebih dari 120 orang</li>
+                            <li>Jumlah karyawan UMKT lebih dari 70 orang</li>
+                        </div>
+                        <label for="panel_2">Kerjasama Dalam dan Luar Negeri</label>
+                        <input type="radio" name="panel" id="panel_2">
+                        <div class="collapsible">
+                            <li>Kerjasama Fakultas Kesehatan dengan Chulalongkorn University Thailand</li>
+                            <li>Double Degree Programs (proses inisiasi): UMKT-Kingston Univ. UK; UMKT-Derby Univ. UK;</li>
+                            <li>UMKT-Charles Darwin Univ. Australia</li>
+                            <li> UMKT-Kyungdong Univ. Korea Selatan</li>
+                            <li>UMKT-NTUST Taiwan; UMKT-NTUT Taiwan</li>
+                            <li>Kerjasama Penguatan SDM dengan Universitas Muhammadiyah Surakarta</li>
+                        </div>
+                        <label for="panel_3">Careers Resources</label>
+                        <input type="radio" name="panel" id="panel_3">
+                        <div class="collapsible">
+                            <p>Our Alumni Locator Service assists with reconnecting alumni who have lost contact with one another. We always ensure your privacy and contact information is only disclosed upon approval and verification by both parties.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg py-lg-5 text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" data-aos-delay="">
+                    <p class="text-center">Siapa yang tidak kenal dengan Kota Samarinda, kota yang kaya dengan sumber daya alam dengan kehidupan yang dinamis dan selalu saja muncul hal-hal baru yang kita temui hampir setiap hari. Samarinda juga sebuah Ibu Kota provinsi Kalimantan Timur dengan jumlah penduduk yang telah mencapai satu juta jiwa. Sekolah yang unggul banyak terdapat di Samarinda, demikian juga dengan beberapa Universitas yang tersebar di Samarinda termasuk di antaranya Universitas Muhammadiyah Kalimantan Timur.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Content -->
+    </body>
+    <script src="plugins/js/aos.js"></script>
+    <script src="plugins/js/jquery-3.7.0.min.js"></script>
+    <script src="plugins/js/popper.min.js"></script>
+    <script src="plugins/js/bootstrap.min.js"></script>
+    <script src="plugins/js/custom.js"></script>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted" style="background-color: rgb(39, 47, 84);">
+        <!-- Section: Links  -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 text-white border-bottom">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Universitas Muhammadiyah Kalimantan Timur
+                        </h6>
+                        <p class="fw-bold mb-0">Location</p>
+                        <p>Jl. Ir. H. Juanda No.15, Sidodadi, Kec. Samarinda Ulu, Kota Samarinda, Kalimantan Timur 75124</p>
+                        <p class="fw-bold mb-0">Office Hours:</p>
+                        <p>08:00 am - 04:00 pm</p>
+                        <p class="fw-bold mb-0">Telephone</p>
+                        <p>0541-748511</p>
+                        <p class="fw-bold mb-0">Email</p>
+                        <p>admin@umkt.ac.id</p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Quick Access
+                        </h6>
+                        <p>
+                        <a href="https://lib.umkt.ac.id/" target="_blank" rel="noopener noreferrer" class="text-reset">Perpustakaan</a>
+                        </p>
+                        <p>
+                        <a href="prodi.html" class="text-reset">Program Studi</a>
+                        </p>
+                        <p>
+                        <a href="fakultas.html" class="text-reset">Fakultas</a>
+                        </p>
+                        <p>
+                        <a href="https://opl.umkt.ac.id" target="_blank" rel="noopener noreferrer" class="text-reset">E-Learning</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        About UMKT
+                        </h6>
+                        <p>
+                        <a href="profil.html" class="text-reset">Profil</a>
+                        </p>
+                        <p>
+                        <a href="why-umkt.html" class="text-reset">Why UMKT?</a>
+                        </p>
+                        <p>
+                        <a href="fakultas.html" class="text-reset">Fakultas</a>
+                        </p>
+                        <p>
+                        <a href="visi-misi.html" class="text-reset">Visi dan Misi</a>
+                        </p>
+                        <p>
+                        <a href="kontak.html" class="text-reset">Kontak</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-1 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Sosial Media</h6>
+                        <div class="my-3">
+                            <a href="https://www.instagram.com/umkaltim/?hl=en" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-instagram me-3"></i>Instagram</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.facebook.com/UMKALTIM" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-facebook me-3"></i>Facebook</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.youtube.com/channel/UC9VOR5Ry-JjlpcRNiu2tMMQ" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-youtube me-3"></i>YouTube</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.tiktok.com/@umkt_cmiiw" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-tiktok me-3"></i>TikTok</a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-4 text-white" style="background-color: rgb(39, 47, 84);">
+            <p class="text-reset"><strong>Universitas Muhammadiyah Kalimantan Timur</strong> ©  Copyright 2023</p>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</html>

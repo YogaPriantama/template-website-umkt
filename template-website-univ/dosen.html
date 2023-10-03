@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <!-- Bootstrap 5.3 -->
+        <link rel="stylesheet" href="plugins/css/bootstrap.min.css">
+        <!-- Bootstrap Icons CSS -->
+        <link rel="stylesheet" href="plugins/css/bootstrap-icons.css">
+        <!-- Bootstrap Data Table CSS -->
+        <link rel='stylesheet' href='plugins/css/dataTables.bootstrap5.min.css'>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="plugins/css/style.css">
+        <!-- Data AOS -->
+        <link href="plugins/css/aos.css" rel="stylesheet">
+        
+        <!-- Data Table CSS -->
+        <link rel='stylesheet' href='plugins/css/dataTables.bootstrap5.min.css'>
+        <!-- Title -->
+        <title>Dosen | Universitas Muhammadiyah Kalimantan Timur</title>
+    </head>
+    <body>
+        <div class="top-navbar navbar navbar-expand-lg navbar-dark py-1"> 
+            <div class="container">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navTop" aria-controls="navTop" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navTop">
+                    <ul class="navbar-nav fw-lighter">
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://sikad.umkt.ac.id/">SIKAD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://pddikti.kemdikbud.go.id/">PDDIKTI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="https://lib.umkt.ac.id/">Perpus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="#">Tracer Study</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" target="_blank" rel="noopener noreferrer" href="#">E-Brosur</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav fw-lighter">
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" href="mailto:web@umkt.ac.id"><i class="bi bi-envelope">&nbsp;</i>web@umkt.ac.id</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-0" aria-current="page" href="#"><i class="bi bi-whatsapp">&nbsp;</i>Chat Admisi UMKT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="home.html"><img id="logo" src="images/logo-umkt-hitam.png" alt="logo umkt" width="120px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kampus UMKT
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="sambutan.html">Sambutan Rektor</a></li>
+                                <li><a class="dropdown-item" href="visi-misi.html">Visi dan Misi</a></li>
+                                <li><a class="dropdown-item" href="master-plan.html">Master Plan</a></li>
+                                <li><a class="dropdown-item" href="profil.html">Profil</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Akademik
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://lib.umkt.ac.id/" target="_blank" rel="noopener noreferrer">Perpustakaan</a></li>
+                                <li><a class="dropdown-item" href="https://opl.umkt.ac.id/" target="_blank" rel="noopener noreferrer">OpenLearning</a></li>
+                                <li><a class="dropdown-item active" href="dosen.html">Dosen</a></li>
+                                <li><a class="dropdown-item" href="fakultas.html">Fakultas</a></li>
+                                <li><a class="dropdown-item" href="prodi.html">Program Studi</a></li>
+                                <li><a class="dropdown-item" href="unit.html">Unit, Bagian, dan Lembaga</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy.html">UMKTalks Academy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="why-umkt.html">Why UMKT?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontak.html">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- Main Content -->
+        <!-- Section -->
+        <div id="section" class="container-fluid" style="background-color: white;">
+            <div class="container p-2">
+                <h1 class="fw-bold text-center pb-2" data-aos="fade" data-aos-duration="1000" data-aos-once="true">Dosen Pengajar</h1>
+                <div class="row pt-5 gap-1 align-items-center border-top border-warning">
+                    <div class="table-responsive" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" data-aos-delay="200">
+                        <table id="example" class="table table-striped" style="width:100%">
+                            <thead>
+                                <th>No</th>
+                                <th>Nama</th>
+                                <th>Strata</th>
+                                <th>Keahlian</th>
+                            </thead>
+                            <tbody>
+                            <tr class="row1">
+                                <td>1</td>
+                                <td>Datuk Prof. DR. Mohd Noh bin Dalimin</td>
+                                <td>S3</td>
+                                <td>Experimental Solid State Physics</td>
+                            </tr>
+                            <tr class="row2">
+                                <td>2</td>
+                                <td>Datuk Prof. DR. Mohamed Mustafa Bin Ishak</td>
+                                <td>S3</td>
+                                <td>Political Sociology</td>
+                            </tr>
+                            <tr class="row3">
+                                <td>3</td>
+                                <td>Prof.DR. Zakaria Abbas</td>
+                                <td>S3</td>
+                                <td>Strategic Management Accounting</td>
+                            </tr>
+                            <tr class="row4">
+                                <td>4</td>
+                                <td>Prof. DR. Rushami Zien B. Yusoff</td>
+                                <td>S3</td>
+                                <td>Quality Management, System Developm</td>
+                            </tr>
+                            <tr class="row5">
+                                <td>5</td>
+                                <td>Prof. Bambang Setiaji</td>
+                                <td>S3</td>
+                                <td>Labor Economics, Islamic Economics</td>
+                            </tr>
+                            <tr class="row6">
+                                <td>6</td>
+                                <td>Prof. Ali Saukah</td>
+                                <td>S3</td>
+                                <td>English Language Teaching</td>
+                            </tr>
+                            <tr class="row7">
+                                <td>7</td>
+                                <td>Prof. Kumaidi</td>
+                                <td>S3</td>
+                                <td>Statistik Dan Psikometri</td>
+                            </tr>
+                            <tr class="row8">
+                                <td>8</td>
+                                <td>Prof. Harun</td>
+                                <td>S3</td>
+                                <td>Licensing Law, Administrative Law</td>
+                            </tr>
+                            <tr class="row9">
+                                <td>9</td>
+                                <td>Prof. Ir. Sarjito, M.T., Ph.D</td>
+                                <td>S3</td>
+                                <td>Mechanical Engineering</td>
+                            </tr>
+                            <tr class="row10">
+                                <td>10</td>
+                                <td>Prof. Dr. Aidul Fitriciada Azhari, M.Hum</td>
+                                <td>S3</td>
+                                <td>Constitutional Law</td>
+                            </tr>
+                            <tr class="row11">
+                                <td>11</td>
+                                <td>Husni Thamrin, Ph.D</td>
+                                <td>S3</td>
+                                <td>System Modeling Software Engineering</td>
+                            </tr>
+                            <tr class="row12">
+                                <td>12</td>
+                                <td>Ir. Waluyo Adi Siswanto, M.Eng., PhD</td>
+                                <td>S3</td>
+                                <td>Computational Mechanics</td>
+                            </tr>
+                            <tr class="row13">
+                                <td>13</td>
+                                <td>Hari Prasetyo, Ph.D</td>
+                                <td>S3</td>
+                                <td>Supply Chain Management</td>
+                            </tr>
+                            <tr class="row14">
+                                <td>14</td>
+                                <td>Drs. M. Farid Wajdi, S.E., M.M., Ph.D</td>
+                                <td>S3</td>
+                                <td>Ekonomi Dan Bisnis</td>
+                            </tr>
+                            <tr class="row15">
+                                <td>15</td>
+                                <td>Dr. Yudhi Satria, S.E, S.Psi, M.Si</td>
+                                <td>S3</td>
+                                <td>Psikologi</td>
+                            </tr>
+                            <tr class="row16">
+                                <td>16</td>
+                                <td>Dr. Kelik Wardiono, M.H</td>
+                                <td>S3</td>
+                                <td>Philoshopy Of Lawlegal Theory, Consumer Protection</td>
+                            </tr>
+                            <tr class="row17">
+                                <td>17</td>
+                                <td>Ihwan Susila, S.E., M.Si., Ph.D</td>
+                                <td>S3</td>
+                                <td>Perilaku Konsumen, Strategi Pemasaran</td>
+                            </tr>
+                            <tr class="row18">
+                                <td>18</td>
+                                <td>apt. Erindyah Retno Wikantyasning, Ph.D</td>
+                                <td>S3</td>
+                                <td>Pharmaceutical</td>
+                            </tr>
+                            <tr class="row19">
+                                <td>19</td>
+                                <td>Mochamad Solikin, Ph.D</td>
+                                <td>S3</td>
+                                <td class="column3">&nbsp;</td>
+                            </tr>
+                            <tr class="row20">
+                                <td>20</td>
+                                <td>Ghozali MH, M.Kes., Ph.D</td>
+                                <td>S3</td>
+                                <td>Biostatistics</td>
+                            </tr>
+                            <tr class="row21">
+                                <td>21</td>
+                                <td>Ferry Fadzlul Rahman, S.KM., M.H.Kes, Ph.D</td>
+                                <td>S3</td>
+                                <td>Health Care Administrations, Heath Law</td>
+                            </tr>
+                            <tr class="row22">
+                                <td>22</td>
+                                <td>Ns. Nur Fithriyanti Imamah, S.Kep., MBA Ph.D</td>
+                                <td>S3</td>
+                                <td>Paliative Care</td>
+                            </tr>
+                            <tr class="row23">
+                                <td>23</td>
+                                <td>Paula Mariana Kustiawan, Ph.D</td>
+                                <td>S3</td>
+                                <td>Bioteknologi</td>
+                            </tr>
+                            <tr class="row24">
+                                <td>24</td>
+                                <td>Dr. Nunung Herliana, M.Pd</td>
+                                <td>S3</td>
+                                <td>Pendidikan Keperawatan</td>
+                            </tr>
+                            <tr class="row25">
+                                <td>25</td>
+                                <td>Dr. Vita Pramaningsih, ST, M.Eng</td>
+                                <td>S3</td>
+                                <td>Ilmu Lingkungan Dan Polusi</td>
+                            </tr>
+                            <tr class="row26">
+                                <td>26</td>
+                                <td>Dr. Hasyrul Hamzah, S. Farm., M.Sc</td>
+                                <td>S3</td>
+                                <td>Biofilm Dan Etnobotany</td>
+                            </tr>
+                            <tr class="row27">
+                                <td>27</td>
+                                <td>Dr. Darani, S.P</td>
+                                <td class="column2">&nbsp;</td>
+                                <td class="column3">&nbsp;</td>
+                            </tr>
+                            <tr class="row28">
+                                <td>28</td>
+                                <td>Dr. Rinda Karhab Sandayani</td>
+                                <td>S3</td>
+                                <td>Manajemen</td>
+                            </tr>
+                            <tr class="row29">
+                                <td>29</td>
+                                <td>Dr. Fenty Fauziah, M.Si., Ak.CA</td>
+                                <td>S3</td>
+                                <td>Akuntansi</td>
+                            </tr>
+                            <tr class="row30">
+                                <td>30</td>
+                                <td>Dr. Bun Yamin, S.E., M.Si</td>
+                                <td>S3</td>
+                                <td>Manajemen Administrasi Publik</td>
+                            </tr>
+                            <tr class="row31">
+                                <td>31</td>
+                                <td>Dr. Fitriansyah, S.T., M.M</td>
+                                <td>S3</td>
+                                <td>Manajemen Industri</td>
+                            </tr>
+                            <tr class="row32">
+                                <td>32</td>
+                                <td>Dr. Khairul Anam</td>
+                                <td>S3</td>
+                                <td>Ilmu Ekonomi</td>
+                            </tr>
+                            <tr class="row33">
+                                <td>33</td>
+                                <td>Dr. Joko Sabtohadi, M.M</td>
+                                <td>S3</td>
+                                <td>Ilmu Ekonomi</td>
+                            </tr>
+                            <tr class="row34">
+                                <td>34</td>
+                                <td>Dr. Aullia Vivi Yulianingrum, S.H., M.H</td>
+                                <td>S3</td>
+                                <td>Hukum Pertambangan</td>
+                            </tr>
+                            <tr class="row35">
+                                <td>35</td>
+                                <td>Dr.Rahmatullah Ayu, S.Pd., M.H</td>
+                                <td>S3</td>
+                                <td>Economic Law And Philosophy</td>
+                            </tr>
+                            <tr class="row36">
+                                <td>36</td>
+                                <td>Dr. Elviandri, S.HI., M.Hum</td>
+                                <td>S3</td>
+                                <td>Hukum Tata Negara Hukum Islam</td>
+                            </tr>
+                            <tr class="row37">
+                                <td>37</td>
+                                <td>Dr. Galih Priyambada, S.Pd., M.Pd</td>
+                                <td>S3</td>
+                                <td>Sport Massage  Metodologi Penelitian</td>
+                            </tr>
+                            <tr class="row38">
+                                <td>38</td>
+                                <td>Ns. Annaas Budi Setyawan, S.Kep., M.Si.Med</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Biomedik</td>
+                            </tr>
+                            <tr class="row39">
+                                <td>39</td>
+                                <td>Ns. Ramdhany Ismahmudi, S.Kep., MPH</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Keperawatan Komunitas</td>
+                            </tr>
+                            <tr class="row40">
+                                <td>40</td>
+                                <td>Ns. Kartika Setia Purdani, S. Kep., M.Kep</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Keperawatan Komunitas</td>
+                            </tr>
+                            <tr class="row41">
+                                <td>41</td>
+                                <td>Ns. Joanggi Wiriatarina Harianto, S. Kep., M.Kep</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Keperawatan Medikal Bedah</td>
+                            </tr>
+                            <tr class="row42">
+                                <td>42</td>
+                                <td>Ns. Maridi, S.Kep., M.Kep</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Disaster Nursing Management</td>
+                            </tr>
+                            <tr class="row43">
+                                <td>43</td>
+                                <td>Ns. Tri Wahyuni, S.Kep.,M.Kep., Sp.Kep.Mat</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Keperawatan Maternitas</td>
+                            </tr>
+                            <tr class="row44">
+                                <td>44</td>
+                                <td>Yannie Isworo, SKM., M.Kes</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Kesehtan Lingkungan Dan Kerja</td>
+                            </tr>
+                            <tr class="row45">
+                                <td>45</td>
+                                <td>Muhammad Habibi, SKM., M.KL</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Kesehatan Lingkungan Dan Tropical Disease</td>
+                            </tr>
+                            <tr class="row46">
+                                <td>46</td>
+                                <td>Ratna Yuliawati, SKM., M.Kes.Epid</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Epidemiologi</td>
+                            </tr>
+                            <tr class="row47">
+                                <td>47</td>
+                                <td>Erni Wingki Susanti, S.KM., M. Kes.</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Epidemiologi</td>
+                            </tr>
+                            <tr class="row48">
+                                <td>48</td>
+                                <td>Lisa Wahidatul Oktaviani, S.KM., M.PH</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Epidemiologi</td>
+                            </tr>
+                            <tr class="row49">
+                                <td>49</td>
+                                <td>Ainur Rachman, S.KM., M.Kes</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Kesehatan Lingkungan</td>
+                            </tr>
+                            <tr class="row50">
+                                <td>50</td>
+                                <td>Lia Kurniasari, S.KM., M.Kes</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Kesehatan Ibu Dan Anak</td>
+                            </tr>
+                            <tr class="row51">
+                                <td>51</td>
+                                <td>Sri Sunarti, S.KM., MPH</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Promosi Kesehatan</td>
+                            </tr>
+                            <tr class="row52">
+                                <td>52</td>
+                                <td>Yuliani Winarti, S.KM., M.PH</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Promosi Kesehatan</td>
+                            </tr>
+                            <tr class="row53">
+                                <td>53</td>
+                                <td>Tri Budi Julianti, S.Si., M.Si., Apt.</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Farmasetika</td>
+                            </tr>
+                            <tr class="row54">
+                                <td>54</td>
+                                <td>Indah Hairunisa, S.Farm., M.Biotech., Apt</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Bioteknologi</td>
+                            </tr>
+                            <tr class="row55">
+                                <td>55</td>
+                                <td>Mursidah Nurfadillah, SE., M.M</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Ekonomi Manajemen</td>
+                            </tr>
+                            <tr class="row56">
+                                <td>56</td>
+                                <td>Vera Anitra, SE., M.M</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Manajemen Sumberdaya Manusia</td>
+                            </tr>
+                            <tr class="row57">
+                                <td>57</td>
+                                <td>Damingun, SE., MM.</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Manajemen Sumberdaya Manusia</td>
+                            </tr>
+                            <tr class="row58">
+                                <td>58</td>
+                                <td>Praja Hadi Saputra, SE., M.Sc.Ak</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Akuntansi</td>
+                            </tr>
+                            <tr class="row59">
+                                <td>59</td>
+                                <td>Istimaroh, SE., MM.</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Manajemen Strategi Pertahanan</td>
+                            </tr>
+                            <tr class="row60">
+                                <td>60</td>
+                                <td>Anita Shalehah, S.IP., M.A</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Manajemen Hubungan International</td>
+                            </tr>
+                            <tr class="row61">
+                                <td>61</td>
+                                <td>Rizki Tegar Sembada, S.IP., M.H.I</td>
+                                <td>S2 &gt; S3</td>
+                                <td>International Relation Border</td>
+                            </tr>
+                            <tr class="row62">
+                                <td>62</td>
+                                <td>Asnawi Mubarok, S.H., M.Si., M.Kn</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Business Law</td>
+                            </tr>
+                            <tr class="row63">
+                                <td>63</td>
+                                <td>Muhammad Nurcholis Alhadi, S.H., M.H.Li</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Hukum Litigasi</td>
+                            </tr>
+                            <tr class="row64">
+                                <td>64</td>
+                                <td>Tri Astuti, S.Psi., M.Psi</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Psikologi Industri Dan Organisasi</td>
+                            </tr>
+                            <tr class="row65">
+                                <td>65</td>
+                                <td>Hamka, S.Psi., M.Psi</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Psikologi Industri Dan Organisasi</td>
+                            </tr>
+                            <tr class="row66">
+                                <td>66</td>
+                                <td>Dzul Rachman, S.Pd., M.Pd</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Educational Technology</td>
+                            </tr>
+                            <tr class="row67">
+                                <td>67</td>
+                                <td>Abdul Halim, S.Pd., M.Pd</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Tesol Language Assessment</td>
+                            </tr>
+                            <tr class="row68">
+                                <td>68</td>
+                                <td>Andri Tria Raharja, S.Pd., M.Pd</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Pendidikan Olahraga</td>
+                            </tr>
+                            <tr class="row69">
+                                <td>69</td>
+                                <td>Rusandi Noor, S.T., M.T</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Rekayasa Jembatan Rekayasa Gedung</td>
+                            </tr>
+                            <tr class="row70">
+                                <td>70</td>
+                                <td>Binyamin, S.T., M.T</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Solid Mechanics Materials</td>
+                            </tr>
+                            <tr class="row71">
+                                <td>71</td>
+                                <td>Sigiet Haryo Pranoto, S.T., M.Eng</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Nonlinear Mechanics Design And Simulation</td>
+                            </tr>
+                            <tr class="row72">
+                                <td>72</td>
+                                <td>Hery Tri Waloyo, M.T</td>
+                                <td>S2 &gt; S3</td>
+                                <td>Renewable Energy</td>
+                            </tr>
+                            <tr class="row73">
+                                <td>73</td>
+                                <td>Ns. Alfi Ari Fakhrur Rizal, S.Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Manajemen Keperawatan</td>
+                            </tr>
+                            <tr class="row74">
+                                <td>74</td>
+                                <td>Ns. Andri Praja Satria, S.Kep., M.Sc., M.Biomed</td>
+                                <td>S2</td>
+                                <td>Biomedik</td>
+                            </tr>
+                            <tr class="row75">
+                                <td>75</td>
+                                <td>Rini Ernawati, S.Pd., M.Kes.</td>
+                                <td>S2</td>
+                                <td>Kesehatan Reproduksi</td>
+                            </tr>
+                            <tr class="row76">
+                                <td>76</td>
+                                <td>Ns. Thomas Ari Wibowo, S. Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Keperawatan Medikal Bedah</td>
+                            </tr>
+                            <tr class="row77">
+                                <td>77</td>
+                                <td>Ns. Fitroh Asriyadi, S. Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Pendidikan Keperawatan</td>
+                            </tr>
+                            <tr class="row78">
+                                <td>78</td>
+                                <td>Ns. Taharuddin, S.Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Keperawatan Medikal Bedah</td>
+                            </tr>
+                            <tr class="row79">
+                                <td>79</td>
+                                <td>Ns. Arief Budiman, S.Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Pendidikan Keperawatan</td>
+                            </tr>
+                            <tr class="row80">
+                                <td>80</td>
+                                <td>Burhanto, S.ST., M.Kes</td>
+                                <td>S2</td>
+                                <td>Keperawatan Komunitas</td>
+                            </tr>
+                            <tr class="row81">
+                                <td>81</td>
+                                <td>Ns. Faried Rahman Hidayat, S.Kep., M.Kes.</td>
+                                <td>S2</td>
+                                <td>Keperawatan Komunitas</td>
+                            </tr>
+                            <tr class="row82">
+                                <td>82</td>
+                                <td>Ns. Misbah Nurjannah, M.Kep</td>
+                                <td>S2</td>
+                                <td>Keperawatan Gawat Darurat</td>
+                            </tr>
+                            <tr class="row83">
+                                <td>83</td>
+                                <td>Ns. Siti Khoiroh Muflihatin, S.Pd., S.Kep., M.Kep.</td>
+                                <td>S2</td>
+                                <td>Keperawatan Medikal Bedah</td>
+                            </tr>
+                            <tr class="row84">
+                                <td>84</td>
+                                <td>Ns. Mukhripah Damaiyanti, S.Kep., M.NS</td>
+                                <td>S2</td>
+                                <td>Keperawatan Jiwa</td>
+                            </tr>
+                            <tr class="row85">
+                                <td>85</td>
+                                <td>Ns. Dwi Rahmah Fitriani, S.Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Keperawatan Jiwa</td>
+                            </tr>
+                            <tr class="row86">
+                                <td>86</td>
+                                <td>Ns. Milkhatun, S.Kep., M.Kep.</td>
+                                <td>S2</td>
+                                <td>Manajemen Keperawatan</td>
+                            </tr>
+                            <tr class="row87">
+                                <td>87</td>
+                                <td>Ns. Pipit Feriani, S.Kep., M.Ars</td>
+                                <td>S2</td>
+                                <td>Administrasi Rumah Sakit</td>
+                            </tr>
+                            <tr class="row88">
+                                <td>88</td>
+                                <td>Rusni Masnina, S.Kp., MPH</td>
+                                <td>S2</td>
+                                <td>Keperawatan Komunitas</td>
+                            </tr>
+                            <tr class="row89">
+                                <td>89</td>
+                                <td>Ns. Ni Wayan Wiwin Asthiningsih, S. Kep., M.Pd</td>
+                                <td>S2</td>
+                                <td>Pendidikan Keperawatan</td>
+                            </tr>
+                            <tr class="row90">
+                                <td>90</td>
+                                <td>Ns. Ulfatul Muflihah, M.NS</td>
+                                <td>S2</td>
+                                <td>Keperawatan Medikal Bedah</td>
+                            </tr>
+                            <tr class="row91">
+                                <td>91</td>
+                                <td>Ns. Slamet Purnomo, M.Kep</td>
+                                <td>S2</td>
+                                <td>Keperawatan Medikal Bedah</td>
+                            </tr>
+                            <tr class="row92">
+                                <td>92</td>
+                                <td>Ns. Zulmah Astuti, M.Kep</td>
+                                <td>S2</td>
+                                <td>Keperawatan Gawat Darurat</td>
+                            </tr>
+                            <tr class="row93">
+                                <td>93</td>
+                                <td>Ns. Dwi Widyastuti, M.Kep</td>
+                                <td>S2</td>
+                                <td>Geriatrik</td>
+                            </tr>
+                            <tr class="row94">
+                                <td>94</td>
+                                <td>Suharman, M.Ag</td>
+                                <td>S2</td>
+                                <td>Agama Islam</td>
+                            </tr>
+                            <tr class="row95">
+                                <td>95</td>
+                                <td>Linda Dwi Novial, S.Kp., M.Kep., Sp.J</td>
+                                <td>S2</td>
+                                <td>Keperawatan Jiwa</td>
+                            </tr>
+                            <tr class="row96">
+                                <td>96</td>
+                                <td>Ns. Enok Sureskiarti, S.Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Manajemen Keperawatan</td>
+                            </tr>
+                            <tr class="row97">
+                                <td>97</td>
+                                <td>Ns. Taufik Septiawan, S.Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Keperawatan Medikal Bedah</td>
+                            </tr>
+                            <tr class="row98">
+                                <td>98</td>
+                                <td>Ns. Fatma Zulaikha, S.Kep., M.Kep</td>
+                                <td>S2</td>
+                                <td>Keperawatan Anak</td>
+                            </tr>
+                            <tr class="row99">
+                                <td>99</td>
+                                <td>Ns. M Bachtiar Safrudin,M.Kep., Sp.Kep.Kom.</td>
+                                <td>S2</td>
+                                <td>Keperawatan Komunitas</td>
+                            </tr>
+                            <tr class="row100">
+                                <td>100</td>
+                                <td>Marjan Wahyuni, SKM., M.Si</td>
+                                <td>S2</td>
+                                <td>Kesehatan Lingkungan Dan Pemukiman</td>
+                            </tr>
+                            <tr class="row101">
+                                <td>101</td>
+                                <td>Deny Kurniawan, S.Hut., M.P.</td>
+                                <td>S2</td>
+                                <td>Bioteknologi</td>
+                            </tr>
+                            <tr class="row102">
+                                <td>102</td>
+                                <td>Rusdi, S.Si., M.Si</td>
+                                <td>S2</td>
+                                <td>Ilmu Lingkungan</td>
+                            </tr>
+                            <tr class="row103">
+                                <td>103</td>
+                                <td>Zaenal Arifin, M.Pd.I</td>
+                                <td>S2</td>
+                                <td>Agama Islam</td>
+                            </tr>
+                            <tr class="row104">
+                                <td>104</td>
+                                <td>Hansen, S.KM., M.KL</td>
+                                <td>S2</td>
+                                <td>Toksikologi Lingkungan</td>
+                            </tr>
+                            <tr class="row105">
+                                <td>105</td>
+                                <td>Andi Daramusseng, S.KM., M.Kes</td>
+                                <td>S2</td>
+                                <td>Kesehatan Lingkungan Dan Spasial Analysis</td>
+                            </tr>
+                            <tr class="row106">
+                                <td>106</td>
+                                <td>Reni Suhelmi, S.KM., M.Kes</td>
+                                <td>S2</td>
+                                <td>Kesehatan Lingkungan</td>
+                            </tr>
+                            <tr class="row107">
+                                <td>107</td>
+                                <td>Kresna Febrianto, S.KM., M.PH</td>
+                                <td>S2</td>
+                                <td>Kesehatan Kerja</td>
+                            </tr>
+                            <tr class="row108">
+                                <td>108</td>
+                                <td>Drs. Suprayitno, M.Kes.</td>
+                                <td>S2</td>
+                                <td>Administrasi Rumah Sakit</td>
+                            </tr>
+                            <tr class="row109">
+                                <td>109</td>
+                                <td>Nida Amalia, S.KM., M.PH</td>
+                                <td>S2</td>
+                                <td>International Health</td>
+                            </tr>
+                            <tr class="row110">
+                                <td>110</td>
+                                <td>Purwo Setiyo Nugroho, S.KM., M.Epid</td>
+                                <td>S2</td>
+                                <td>Epidemiologi</td>
+                            </tr>
+                            <tr class="row111">
+                                <td>111</td>
+                                <td>Mardiana, S.KM., M.Kes</td>
+                                <td>S2</td>
+                                <td>Biostatistics</td>
+                            </tr>
+                            <tr class="row112">
+                                <td>112</td>
+                                <td>Drs. Muhammad Jafron, M.Si</td>
+                                <td>S2</td>
+                                <td>Pendidikan Kewarganegaraan</td>
+                            </tr>
+                            <tr class="row113">
+                                <td>113</td>
+                                <td>Sudirman, S.T.,M.KKK</td>
+                                <td>S2</td>
+                                <td>Kesehatan Kerja</td>
+                            </tr>
+                            <tr class="row114">
+                                <td>114</td>
+                                <td>Sinta Ratna Dewi, S.Farm., M.Si., Apt.</td>
+                                <td>S2</td>
+                                <td>Farmasetika</td>
+                            </tr>
+                            <tr class="row115">
+                                <td>115</td>
+                                <td>Wirnawati, S.Farm., Apt., M.Si., Apt</td>
+                                <td>S2</td>
+                                <td>Farmasi</td>
+                            </tr>
+                            <tr class="row116">
+                                <td>116</td>
+                                <td>Sylvan Septian Ressandy, S.Farm., M.Farm.,Apt</td>
+                                <td>S2</td>
+                                <td>Famasi Komunitas</td>
+                            </tr>
+                            <tr class="row117">
+                                <td>117</td>
+                                <td>Ika Ayu Mentari, S.Farm., M.Farm., Apt</td>
+                                <td>S2</td>
+                                <td>Famakologi</td>
+                            </tr>
+                            <tr class="row118">
+                                <td>118</td>
+                                <td>Deasy Nur Chairin Hanifa, S.Farm., M.Clin.Pharm., Apt</td>
+                                <td>S2</td>
+                                <td>Farmasi Klinis</td>
+                            </tr>
+                            <tr class="row119">
+                                <td>119</td>
+                                <td>Rizki Nur Azmi, S.Farm., M.Farm., Apt</td>
+                                <td>S2</td>
+                                <td>Farmasi Herbal</td>
+                            </tr>
+                            <tr class="row120">
+                                <td>120</td>
+                                <td>Muthia Dewi Marthilia Alim, S.Farm., M.Farm., Apt</td>
+                                <td>S2</td>
+                                <td>Farmasi</td>
+                            </tr>
+                            <tr class="row121">
+                                <td>121</td>
+                                <td>Dwi Lestari, S.Farm., M.Si., Apt</td>
+                                <td>S2</td>
+                                <td>Kimia Farmasi</td>
+                            </tr>
+                            <tr class="row122">
+                                <td>122</td>
+                                <td>Chaerul Fadly Mochtar Luthfi</td>
+                                <td>S2</td>
+                                <td>Microbiology Dan Experimental Pharmacology</td>
+                            </tr>
+                            <tr class="row123">
+                                <td>123</td>
+                                <td>apt. Muh. Irham Bakhtiar, M.Clin.Pharm</td>
+                                <td>S2</td>
+                                <td>Farmasi Klinis</td>
+                            </tr>
+                            <tr class="row124">
+                                <td>124</td>
+                                <td>Yulia Tri Kusumawati, SE., M.Sc.Ak</td>
+                                <td>S2</td>
+                                <td>Akuntansi</td>
+                            </tr>
+                            <tr class="row125">
+                                <td>125</td>
+                                <td>Sofia Ulfa Eka H, SE., MM</td>
+                                <td>S2</td>
+                                <td>Manajemen Sumberdaya Manusia</td>
+                            </tr>
+                            <tr class="row126">
+                                <td>126</td>
+                                <td>Sri Wahyuni Jamal, S.E., M.M</td>
+                                <td>S2</td>
+                                <td>Manajemen Publik</td>
+                            </tr>
+                            <tr class="row127">
+                                <td>127</td>
+                                <td>Azhar Latief, S.E., M.Ak.CA</td>
+                                <td>S2</td>
+                                <td>Akuntansi</td>
+                            </tr>
+                            <tr class="row128">
+                                <td>128</td>
+                                <td>Fandi Kharisma, S.E., M.Sc.Ak</td>
+                                <td>S2</td>
+                                <td>Akuntansi</td>
+                            </tr>
+                            <tr class="row129">
+                                <td>129</td>
+                                <td>Ermi Utami, S.E., M.E</td>
+                                <td>S2</td>
+                                <td>Manajemen Industri</td>
+                            </tr>
+                            <tr class="row130">
+                                <td>130</td>
+                                <td>Suwoko, SE., MM.</td>
+                                <td>S2</td>
+                                <td>Manajemen</td>
+                            </tr>
+                            <tr class="row131">
+                                <td>131</td>
+                                <td>Askiah, S.E., M.Si</td>
+                                <td>S2</td>
+                                <td>Manajemen Strategi Pertahanan</td>
+                            </tr>
+                            <tr class="row132">
+                                <td>132</td>
+                                <td>Asmadhini Handayani Rahmah, S.Si., M.M</td>
+                                <td>S2</td>
+                                <td>Ekonometrik</td>
+                            </tr>
+                            <tr class="row133">
+                                <td>133</td>
+                                <td>Idham Cholid, SE., MM.</td>
+                                <td>S2</td>
+                                <td>Manajemen Pariwisata</td>
+                            </tr>
+                            <tr class="row134">
+                                <td>134</td>
+                                <td>Marsha Anindita, S.E., M.S.M</td>
+                                <td>S2</td>
+                                <td>Manajemen Industri</td>
+                            </tr>
+                            <tr class="row135">
+                                <td>135</td>
+                                <td>Dewi Sartika, S.ST., M.M</td>
+                                <td>S2</td>
+                                <td>Manajemen Industri</td>
+                            </tr>
+                            <tr class="row136">
+                                <td>136</td>
+                                <td>Rahman Anshari, S.E., M.A</td>
+                                <td>S2</td>
+                                <td>Akuntansi</td>
+                            </tr>
+                            <tr class="row137">
+                                <td>137</td>
+                                <td>Achmad Efendi, S.Pd., M.E., M.A.P</td>
+                                <td>S2</td>
+                                <td>Manajemen Administrasi Publik</td>
+                            </tr>
+                            <tr class="row138">
+                                <td>138</td>
+                                <td>Azi Nur Rahmasita, S.IP., M.M</td>
+                                <td>S2</td>
+                                <td>Manajemen Sumberdaya Manusia</td>
+                            </tr>
+                            <tr class="row139">
+                                <td>139</td>
+                                <td>Lorine Kalista Noor, S.M., M.M</td>
+                                <td>S2</td>
+                                <td>Manajemen</td>
+                            </tr>
+                            <tr class="row140">
+                                <td>140</td>
+                                <td>Nur Endah Ramayanti, S.Sos., M.CIL</td>
+                                <td>S2</td>
+                                <td>Leadership Management</td>
+                            </tr>
+                            <tr class="row141">
+                                <td>141</td>
+                                <td>Hudiyah Astuti Sudirman, S.ST., M.M</td>
+                                <td>S2</td>
+                                <td>Manajemen Pemasaran</td>
+                            </tr>
+                            <tr class="row142">
+                                <td>142</td>
+                                <td>Muhammad Iqbal Pribadi, S.M., MBA</td>
+                                <td>S2</td>
+                                <td>Manajemen Bisnis</td>
+                            </tr>
+                            <tr class="row143">
+                                <td>143</td>
+                                <td>Jubaidi, S.E., M.M</td>
+                                <td>S2</td>
+                                <td>Manajemen</td>
+                            </tr>
+                            <tr class="row144">
+                                <td>144</td>
+                                <td>H. Sunarso, SE., MM.</td>
+                                <td>S2</td>
+                                <td>Manajemen</td>
+                            </tr>
+                            <tr class="row145">
+                                <td>145</td>
+                                <td>Khoirul Amin, S.IP., M.A</td>
+                                <td>S2</td>
+                                <td>Foreign Policy Analysis</td>
+                            </tr>
+                            <tr class="row146">
+                                <td>146</td>
+                                <td>Gilang Mukti Rukmana, S.IP., M.Hub.Int</td>
+                                <td>S2</td>
+                                <td>Kajian Globalisasi Dan Strategi</td>
+                            </tr>
+                            <tr class="row147">
+                                <td>147</td>
+                                <td>Mohamad Dziqie Aulia Alfarauqi, S.IP., M.A</td>
+                                <td>S2</td>
+                                <td>International Relations</td>
+                            </tr>
+                            <tr class="row148">
+                                <td>148</td>
+                                <td>Intan Kinanthi D.T, S.IP., M.A</td>
+                                <td>S2</td>
+                                <td>International Political Economy</td>
+                            </tr>
+                            <tr class="row149">
+                                <td>149</td>
+                                <td>Devy Indah P, S.IP., M.Han</td>
+                                <td>S2</td>
+                                <td>Peace And Security Studies</td>
+                            </tr>
+                            <tr class="row150">
+                                <td>150</td>
+                                <td>Rio Arif Pratama, S.H., M.H.Li</td>
+                                <td>S2</td>
+                                <td>Hukum Litigasi</td>
+                            </tr>
+                            <tr class="row151">
+                                <td>151</td>
+                                <td>Bayu Prasetyo, S.H., M.H</td>
+                                <td>S2</td>
+                                <td>Hukum Administrasi Negara</td>
+                            </tr>
+                            <tr class="row152">
+                                <td>152</td>
+                                <td>Ikhwanul Muslim, S.H., M.H</td>
+                                <td>S2</td>
+                                <td>Hukum Tata Negara Hukum Islam</td>
+                            </tr>
+                            <tr class="row153">
+                                <td>153</td>
+                                <td>Ahmad Azmi Perkasa Alam, Lc., M.A</td>
+                                <td>S2</td>
+                                <td>Islamic Studies</td>
+                            </tr>
+                            <tr class="row154">
+                                <td>154</td>
+                                <td>Khodijah Nur Tsalis, Lc., M.A</td>
+                                <td>S2</td>
+                                <td>Islamic Studies</td>
+                            </tr>
+                            <tr class="row155">
+                                <td>155</td>
+                                <td>Sunariyo, S.H., M.H</td>
+                                <td>S2</td>
+                                <td>Hukum Ketenagakerjaan</td>
+                            </tr>
+                            <tr class="row156">
+                                <td>156</td>
+                                <td>Dewi Kamaratih, S.Psi., M.Psi.Psikolog</td>
+                                <td>S2</td>
+                                <td>Developmental_And_Educational</td>
+                            </tr>
+                            <tr class="row157">
+                                <td>157</td>
+                                <td>Karina Putri Alamanda, S.Psi., M.Psi.Psikolog</td>
+                                <td>S2</td>
+                                <td>Kognitif Dan Perilaku - Psikologi</td>
+                            </tr>
+                            <tr class="row158">
+                                <td>158</td>
+                                <td>Aniq Hudiyah Bil Haq, S.Psi., M.A</td>
+                                <td>S2</td>
+                                <td>Psikologi Pendidikan</td>
+                            </tr>
+                            <tr class="row159">
+                                <td>159</td>
+                                <td>Desita Dyah Damayanti, S.Psi., M.Psi., Psikolog</td>
+                                <td>S2</td>
+                                <td>Psikologi Industri Dan Organisasi</td>
+                            </tr>
+                            <tr class="row160">
+                                <td>160</td>
+                                <td>Rahmawati Pratiwi, S.Psi., M.Psi., Psikolog</td>
+                                <td>S2</td>
+                                <td>Clinical Psychology</td>
+                            </tr>
+                            <tr class="row161">
+                                <td>161</td>
+                                <td>Dian Putriana, S.Psi., M.Psi., Psikolog</td>
+                                <td>S2</td>
+                                <td>Psikologi Perkembangan Anak</td>
+                            </tr>
+                            <tr class="row162">
+                                <td>162</td>
+                                <td>Alfiza Fakhriya Haq, M.Psi., Psikolog</td>
+                                <td>S2</td>
+                                <td>Psikologi Perkembangan Anak</td>
+                            </tr>
+                            <tr class="row163">
+                                <td>163</td>
+                                <td>Muslimin Nulipata, M.Psi., Psikolog</td>
+                                <td>S2</td>
+                                <td>Psikologi Industri Dan Organisasi</td>
+                            </tr>
+                            <tr class="row164">
+                                <td>164</td>
+                                <td>Dra. Ratnawati, M.Psi</td>
+                                <td>S2</td>
+                                <td>Psikologi Pendidikan</td>
+                            </tr>
+                            <tr class="row165">
+                                <td>165</td>
+                                <td>Mardiana, S.Pd.I., M.S.I</td>
+                                <td>S2</td>
+                                <td>Agama Islam</td>
+                            </tr>
+                            <tr class="row166">
+                                <td>166</td>
+                                <td>Rani Herning Puspita S.Hum., M.Hum</td>
+                                <td>S2</td>
+                                <td>Linguistik</td>
+                            </tr>
+                            <tr class="row167">
+                                <td>167</td>
+                                <td>Sunarti, S.Pd., M.Pd</td>
+                                <td>S2</td>
+                                <td>Linguistik</td>
+                            </tr>
+                            <tr class="row168">
+                                <td>168</td>
+                                <td>Yeni Rahmawati, S.Pd., M.Sc</td>
+                                <td>S2</td>
+                                <td>Educational Technology</td>
+                            </tr>
+                            <tr class="row169">
+                                <td>169</td>
+                                <td>Hj. Khusnul Khatimah, S.Pd., M.Pd</td>
+                                <td>S2</td>
+                                <td>Teaching English For Foreign Language</td>
+                            </tr>
+                            <tr class="row170">
+                                <td>170</td>
+                                <td>Ibrahim, S.Pd., M.TESOL</td>
+                                <td>S2</td>
+                                <td>Tesol</td>
+                            </tr>
+                            <tr class="row171">
+                                <td>171</td>
+                                <td>Sudarman, S.Pd., M.Ed</td>
+                                <td>S2</td>
+                                <td>Vocabulary Learning Strategies</td>
+                            </tr>
+                            <tr class="row172">
+                                <td>172</td>
+                                <td>Julianur, S.Pd., M.Pd</td>
+                                <td>S2</td>
+                                <td>Kepelatihan Olahraga</td>
+                            </tr>
+                            <tr class="row173">
+                                <td>173</td>
+                                <td>Januar Abdilah Santoso, S.Pd., M.Or</td>
+                                <td>S2</td>
+                                <td>Penjas Adaptif Perkembangan Motorik</td>
+                            </tr>
+                            <tr class="row174">
+                                <td>174</td>
+                                <td>Nanda Alfian Mahardhika, S.Pd., M.Pd</td>
+                                <td>S2</td>
+                                <td>Pendidikan Olahraga</td>
+                            </tr>
+                            <tr class="row175">
+                                <td>175</td>
+                                <td>Jeane Betty Kurnia Jusuf, S.Pd., M.Pd</td>
+                                <td>S2</td>
+                                <td>Pendidikan Olahraga</td>
+                            </tr>
+                            <tr class="row176">
+                                <td>176</td>
+                                <td>Wawan Joko Pranoto, S.Kom. M.Ti</td>
+                                <td>S2</td>
+                                <td>Teknologi Informatika</td>
+                            </tr>
+                            <tr class="row177">
+                                <td>177</td>
+                                <td>Asslia Johar Latipah, S.Kom., M.Cs</td>
+                                <td>S2</td>
+                                <td>Computer Science</td>
+                            </tr>
+                            <tr class="row178">
+                                <td>178</td>
+                                <td>Rofilde Hasudungan, S.Kom., M.Sc</td>
+                                <td>S2</td>
+                                <td>Data</td>
+                            </tr>
+                            <tr class="row179">
+                                <td>179</td>
+                                <td>Rudiman, S.Kom., M.Sc</td>
+                                <td>S2</td>
+                                <td>Information System And Technology</td>
+                            </tr>
+                            <tr class="row180">
+                                <td>180</td>
+                                <td>Naufal Azmi Verdikha, S.Kom., M.Eng</td>
+                                <td>S2</td>
+                                <td>Machine Learning Natural Language Processing</td>
+                            </tr>
+                            <tr class="row181">
+                                <td>181</td>
+                                <td>Faldi, S.Kom., M.TI</td>
+                                <td>S2</td>
+                                <td>Computer Networking</td>
+                            </tr>
+                            <tr class="row182">
+                                <td>182</td>
+                                <td>Sayekti Harits Suryawan, S.Kom., M.Kom</td>
+                                <td>S2</td>
+                                <td>Sustainable</td>
+                            </tr>
+                            <tr class="row183">
+                                <td>183</td>
+                                <td>Taghfirul Azhima Yoga Siswa, S.Kom, M.Kom</td>
+                                <td>S2</td>
+                                <td>Big Data Data Science</td>
+                            </tr>
+                            <tr class="row184">
+                                <td>184</td>
+                                <td>Arbansyah, S.Kom., M.TI</td>
+                                <td>S2</td>
+                                <td>Teknologi Informasi</td>
+                            </tr>
+                            <tr class="row185">
+                                <td>185</td>
+                                <td>Muhammad Taufiq Sumadi, S.Tr.Kom., M.Tr.Kom</td>
+                                <td>S2</td>
+                                <td>Network Security Image Processing</td>
+                            </tr>
+                            <tr class="row186">
+                                <td>186</td>
+                                <td>Muhammad Noor Asnan, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Beton Struktur</td>
+                            </tr>
+                            <tr class="row187">
+                                <td>187</td>
+                                <td>Fitriyati Agustina, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Tehnik Sipil</td>
+                            </tr>
+                            <tr class="row188">
+                                <td>188</td>
+                                <td>Isnaini Zulkarnain, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Teknik Sipil Manajemen Konstruksi</td>
+                            </tr>
+                            <tr class="row189">
+                                <td>189</td>
+                                <td>Pitoyo, S.T., M.Sc</td>
+                                <td>S2</td>
+                                <td>Sistem Transportasi</td>
+                            </tr>
+                            <tr class="row190">
+                                <td>190</td>
+                                <td>Santi Yatnikasari, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Manajamen Konstruksi</td>
+                            </tr>
+                            <tr class="row191">
+                                <td>191</td>
+                                <td>Adde Currie Siregar, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Tehnik Sipil</td>
+                            </tr>
+                            <tr class="row192">
+                                <td>192</td>
+                                <td>Ulwiyah Wahdah Mufassirin, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Tehnik Sipil</td>
+                            </tr>
+                            <tr class="row193">
+                                <td>193</td>
+                                <td>Dheka Shara Pratiwi, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Tehnik Sipil</td>
+                            </tr>
+                            <tr class="row194">
+                                <td>194</td>
+                                <td>Anis Siti Nurrohkayati, S.T., M.T.</td>
+                                <td>S2</td>
+                                <td>Industrial</td>
+                            </tr>
+                            <tr class="row195">
+                                <td>195</td>
+                                <td>Khanif Setiyawan, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Material Maju</td>
+                            </tr>
+                            <tr class="row196">
+                                <td>196</td>
+                                <td>Andi Nugroho, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Tehnik Mesin</td>
+                            </tr>
+                            <tr class="row197">
+                                <td>197</td>
+                                <td>Agus Mujianto, M.T</td>
+                                <td>S2</td>
+                                <td>Tehnik Mesin</td>
+                            </tr>
+                            <tr class="row198">
+                                <td>198</td>
+                                <td>Ir. Fajar Alam, S.T., M.Ling</td>
+                                <td>S2</td>
+                                <td>Geologi Lingkungan</td>
+                            </tr>
+                            <tr class="row199">
+                                <td>199</td>
+                                <td>Ni'matul Azizah, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Geology And Mineral Resources</td>
+                            </tr>
+                            <tr class="row200">
+                                <td>200</td>
+                                <td>Syamsidar Sutan Malim Polawan, S.T., M.T</td>
+                                <td>S2</td>
+                                <td>Pertambangan</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content -->
+    </body>
+    <script src="plugins/js/aos.js"></script>
+    <script src="plugins/js/jquery-3.7.0.min.js"></script>
+    <script src="plugins/js/popper.min.js"></script>
+    <script src="plugins/js/bootstrap.min.js"></script>
+    <script src="plugins/js/custom.js"></script>
+    <!-- Data Table JS -->
+    <script src='plugins/js/jquery.dataTables.min.js'></script>
+    <script src='plugins/js/dataTables.responsive.min.js'></script>
+    <script src='plugins/js/dataTables.bootstrap5.min.js'></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable({
+              //disable sorting on last column
+              "columnDefs": [
+                { "orderable": false, }
+              ],
+              language: {
+                //customize pagination prev and next buttons: use arrows instead of words
+                'paginate': {
+                  'previous': '<span class="bi bi-chevron-left"></span>',
+                  'next': '<span class="bi bi-chevron-right"></span>'
+                },
+                //customize number of elements to be displayed
+                "lengthMenu": 'Display <select class="form-control input-sm">'+
+                '<option value="10">10</option>'+
+                '<option value="20">20</option>'+
+                '<option value="30">30</option>'+
+                '<option value="40">40</option>'+
+                '<option value="50">50</option>'+
+                '<option value="-1">All</option>'+
+                '</select> results'
+              }
+            })  
+        } );
+    </script>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted" style="background-color: rgb(39, 47, 84);">
+        <!-- Section: Links  -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 text-white border-bottom">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Universitas Muhammadiyah Kalimantan Timur
+                        </h6>
+                        <p class="fw-bold mb-0">Location</p>
+                        <p>Jl. Ir. H. Juanda No.15, Sidodadi, Kec. Samarinda Ulu, Kota Samarinda, Kalimantan Timur 75124</p>
+                        <p class="fw-bold mb-0">Office Hours:</p>
+                        <p>08:00 am - 04:00 pm</p>
+                        <p class="fw-bold mb-0">Telephone</p>
+                        <p>0541-748511</p>
+                        <p class="fw-bold mb-0">Email</p>
+                        <p>admin@umkt.ac.id</p>
+    
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Quick Access
+                        </h6>
+                        <p>
+                        <a href="https://lib.umkt.ac.id/" target="_blank" rel="noopener noreferrer" class="text-reset">Perpustakaan</a>
+                        </p>
+                        <p>
+                        <a href="prodi.html" class="text-reset">Program Studi</a>
+                        </p>
+                        <p>
+                        <a href="fakultas.html" class="text-reset">Fakultas</a>
+                        </p>
+                        <p>
+                        <a href="https://opl.umkt.ac.id" target="_blank" rel="noopener noreferrer" class="text-reset">E-Learning</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        About UMKT
+                        </h6>
+                        <p>
+                        <a href="profil.html" class="text-reset">Profil</a>
+                        </p>
+                        <p>
+                        <a href="why-umkt.html" class="text-reset">Why UMKT?</a>
+                        </p>
+                        <p>
+                        <a href="fakultas.html" class="text-reset">Fakultas</a>
+                        </p>
+                        <p>
+                        <a href="visi-misi.html" class="text-reset">Visi dan Misi</a>
+                        </p>
+                        <p>
+                        <a href="kontak.html" class="text-reset">Kontak</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-1 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Sosial Media</h6>
+                        <div class="my-3">
+                            <a href="https://www.instagram.com/umkaltim/?hl=en" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-instagram me-3"></i>Instagram</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.facebook.com/UMKALTIM" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-facebook me-3"></i>Facebook</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.youtube.com/channel/UC9VOR5Ry-JjlpcRNiu2tMMQ" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-youtube me-3"></i>YouTube</a>
+                        </div>
+                        <div class="my-3">
+                            <a href="https://www.tiktok.com/@umkt_cmiiw" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-tiktok me-3"></i>TikTok</a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-4 text-white" style="background-color: rgb(39, 47, 84);">
+            <p class="text-reset"><strong>Universitas Muhammadiyah Kalimantan Timur</strong> ©  Copyright 2023</p>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</html>
